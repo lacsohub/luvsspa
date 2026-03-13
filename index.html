@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luvs Spa | Relax. Refresh. Rejuvenate.</title>
+    <meta name="description" content="Premium luxury wellness spa in Surat. Experience the ultimate relaxation with our expert body massage and spa therapy.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">Luvs Spa</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="images/1.png" alt="Luxury Spa Hero" class="hero-img">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 data-reveal>Luvs Spa</h1>
+            <p data-reveal>Relax. Refresh. Rejuvenate.</p>
+            <a href="#" class="btn btn-primary whatsapp-booking" data-reveal>Book Now via WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- About Preview -->
+    <section class="section-padding" id="about-preview">
+        <div class="container">
+            <div class="section-title" data-reveal>
+                <span>Discover</span>
+                <h2>Our Story</h2>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; gap: 4rem; align-items: center;">
+                <div style="flex: 1; min-width: 300px;" data-reveal>
+                    <img src="images/2.png" alt="Spa Interior" style="border-radius: 5px; box-shadow: var(--card-shadow);">
+                </div>
+                <div style="flex: 1; min-width: 300px;" data-reveal>
+                    <p style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 2rem;">
+                        Welcome to Luvs Spa, a sanctuary of tranquility designed to harmonize your mind, body, and spirit. Located in the heart of Surat, we offer a range of premium wellness treatments that blend ancient traditions with modern luxury.
+                    </p>
+                    <p style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 2rem;">
+                        Our expert therapists are dedicated to providing a personalized experience that leaves you feeling refreshed and rejuvenated.
+                    </p>
+                    <a href="about.html" class="btn btn-outline">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="section-padding" style="background: var(--secondary-bg);">
+        <div class="container">
+            <div class="section-title" data-reveal>
+                <span>Luxury</span>
+                <h2>Our Services</h2>
+            </div>
+            <div class="card-grid">
+                <!-- Body Massage -->
+                <div class="service-card" data-reveal>
+                    <img src="images/3.png" alt="Body Massage">
+                    <div class="service-card-content">
+                        <h3>Body Massage</h3>
+                        <p>Relaxation for your entire body with our signature techniques.</p>
+                        <a href="services.html" class="btn btn-outline" style="padding: 0.8rem 1.5rem; font-size: 0.8rem;">Learn More</a>
+                    </div>
+                </div>
+                <!-- Aroma Therapy -->
+                <div class="service-card" data-reveal>
+                    <img src="images/4.png" alt="Aroma Therapy">
+                    <div class="service-card-content">
+                        <h3>Aroma Therapy</h3>
+                        <p>Essential oils to heal your mind and rejuvenate your senses.</p>
+                        <a href="services.html" class="btn btn-outline" style="padding: 0.8rem 1.5rem; font-size: 0.8rem;">Learn More</a>
+                    </div>
+                </div>
+                <!-- Deep Tissue -->
+                <div class="service-card" data-reveal>
+                    <img src="images/5.png" alt="Deep Tissue Massage">
+                    <div class="service-card-content">
+                        <h3>Deep Tissue</h3>
+                        <p>Targeted pressure to release chronic muscle tension.</p>
+                        <a href="services.html" class="btn btn-outline" style="padding: 0.8rem 1.5rem; font-size: 0.8rem;">Learn More</a>
+                    </div>
+                </div>
+                <!-- Spa Therapy -->
+                <div class="service-card" data-reveal>
+                    <img src="images/6.png" alt="Spa Therapy">
+                    <div class="service-card-content">
+                        <h3>Spa Therapy</h3>
+                        <p>A complete wellness journey for ultimate relaxation.</p>
+                        <a href="services.html" class="btn btn-outline" style="padding: 0.8rem 1.5rem; font-size: 0.8rem;">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Preview -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="section-title" data-reveal>
+                <span>Experience</span>
+                <h2>Gallery</h2>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                <div class="gallery-item" style="cursor: pointer; overflow: hidden; height: 250px;" data-reveal>
+                    <img src="images/1.png" alt="Gallery 1" style="width: 100%; height: 100%; object-fit: cover; transition: var(--transition);">
+                </div>
+                <div class="gallery-item" style="cursor: pointer; overflow: hidden; height: 250px;" data-reveal>
+                    <img src="images/2.png" alt="Gallery 2" style="width: 100%; height: 100%; object-fit: cover; transition: var(--transition);">
+                </div>
+                <div class="gallery-item" style="cursor: pointer; overflow: hidden; height: 250px;" data-reveal>
+                    <img src="images/3.png" alt="Gallery 3" style="width: 100%; height: 100%; object-fit: cover; transition: var(--transition);">
+                </div>
+                <div class="gallery-item" style="cursor: pointer; overflow: hidden; height: 250px;" data-reveal>
+                    <img src="images/4.png" alt="Gallery 4" style="width: 100%; height: 100%; object-fit: cover; transition: var(--transition);">
+                </div>
+            </div>
+            <div class="text-center" style="margin-top: 3rem;">
+                <a href="gallery.html" class="btn btn-outline" data-reveal>View Full Gallery</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section-padding" style="background: var(--secondary-bg);">
+        <div class="container">
+            <div class="section-title" data-reveal>
+                <span>Reviews</span>
+                <h2>What They Say</h2>
+            </div>
+            <div class="testimonial-container" data-reveal>
+                <div class="testimonial-item">
+                    <p>"The best spa experience I've ever had. The atmosphere is so peaceful and the therapists are truly skilled."</p>
+                    <div class="testimonial-author">- Sarah Johnson</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Map -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="section-title" data-reveal>
+                <span>Find Us</span>
+                <h2>Our Location</h2>
+            </div>
+            <div class="glass" style="height: 450px; border-radius: 10px; overflow: hidden;" data-reveal>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.132646635836!2d72.7745!3d21.1475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d9a7d3c0001%3A0x7d3c0001!2sCanal%20Walkway%2C%20Surat!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <a href="#" class="footer-logo">Luvs Spa</a>
+                    <p>214/A Luvs Spa, Canal Walkway, Shoppers Palanpur Canal Road, Surat</p>
+                    <p>Phone: +91 99786 37568</p>
+                    <div style="display: flex; gap: 1.5rem; margin-top: 2rem;">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Body Massage</a></li>
+                        <li><a href="services.html">Aroma Therapy</a></li>
+                        <li><a href="services.html">Deep Tissue</a></li>
+                        <li><a href="services.html">Spa Therapy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Luvs Spa. All rights reserved. Designed with Elegance.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- UI Elements -->
+    <a href="#" class="whatsapp-float whatsapp-booking">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <div class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img src="" alt="Lightbox Image" class="lightbox-img">
+    </div>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
